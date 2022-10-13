@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-white);
+}
+@font-face {
+  font-family: ADAMCGPRO;
+  src: url(../Font/ADAM.CG\ PRO.otf);
+}
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a,
+span {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}

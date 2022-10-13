@@ -1,0 +1,108 @@
+:root {
+  --color-white: #fbfbfb;
+  --color-gray1: #ececec;
+  --color-gray3: #e2e2e2;
+  --color-gray4: #d2d2d2;
+  --color-gray5: #bdbdbd;
+  --color-gray6: #a8a8a8;
+  --color-gray7: #8b8b8b;
+  --color-gray8: #686868;
+  --color-gray9: #515151;
+  --color-gray10: #373737;
+  --color-gray11: #161616;
+  --color-gray12: #0a0a0a;
+  --color-primary: #a60a27;
+  --color-primary-dark: #260007;
+  --color-primary-light: #ffc9d3;
+  --color-secondary: #1cd63d;
+  --color-secondary-dark: #000f03;
+  --color-secondary-light: #ccffd5;
+  --font-adam: 400 3rem/1.5 ADAMCGPRO, sans-serif;
+  --font-poppins-400: 400 1.25rem/1.45 "Poppins", sans-serif;
+  --font-poppins-600: 600 1.25rem/2.1 "Poppins", sans-serif;
+  --font-lexend-peta: 400 1.25rem/1 "Lexend Peta", sans-serif;
+  --font-lexend-deca: 700 4rem/1 "Lexend Deca", sans-serif;
+}
+.color-primary {
+  color: var(--color-primary);
+}
+.color-primary-dark {
+  color: var(--color-primary-dark);
+}
+.color-primary-light {
+  color: var(--color-primary-light);
+}
+.color-secondary {
+  color: var(--color-secondary);
+}
+.color-secondary-dark {
+  color: var(--color-secondary-dark);
+}
+.color-secondary-light {
+  color: var(--color-secondary-light);
+}
+.color-white {
+  color: var(--color-white);
+}
+.color-gray1 {
+  color: var(--color-gray2);
+}
+.color-gray2 {
+  color: var(--color-gray3);
+}
+.color-gray3 {
+  color: var(--color-gray4);
+}
+.color-gray4 {
+  color: var(--color-gray5);
+}
+.color-gray5 {
+  color: var(--color-gray6);
+}
+.color-gray6 {
+  color: var(--color-gray7);
+}
+.color-gray7 {
+  color: var(--color-gray8);
+}
+.color-gray8 {
+  color: var(--color-gray9);
+}
+.color-gray9 {
+  color: var(--color-gray10);
+}
+.color-gray10 {
+  color: var(--color-gray11);
+}
+.color-gray11 {
+  color: var(--color-gray1);
+}
+.color-gray12 {
+  color: var(--color-gray12);
+}
+.font-adam {
+  font: var(--font-adam);
+}
+.font-poppins-400 {
+  font: var(--font-poppins-400);
+}
+.font-poppins-600 {
+  font: var(--font-poppins-600);
+}
+.font-lexend-peta {
+  font: var(--font-lexend-peta);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.font-lexend-deca {
+  font: var(--font-lexend-deca);
+  text-transform: uppercase;
+}
+.button {
+  max-width: 300px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
