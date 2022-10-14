@@ -241,7 +241,7 @@
   flex-direction: column;
   display: grid;
   gap: 10px;
-  padding: 20px;
+  padding: 20px 20px 20px 36px;
   background-color: var(--color-primary-dark);
   box-shadow: 400px 0 var(--color-primary-dark);
   border-radius: 10px 0 0 10px;
@@ -251,11 +251,24 @@
   grid-template-columns: auto auto;
   justify-content: space-between;
 }
+
 .dg-list p {
   display: inline-block;
   color: #ffe5ea;
   font: 400 1rem/1.1 "Poppins", sans-serif;
   text-transform: uppercase;
+  position: relative;
+}
+.dg-list p::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+  position: absolute;
+  top: 6px;
+  left: -10px;
 }
 .dg-list span {
   color: #ffe5ea;

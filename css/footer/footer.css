@@ -25,6 +25,9 @@
   font: 400 1rem/1 "Poppins", sans-serif;
   color: var(--color-gray4);
 }
+.footer-list a:hover {
+  color: var(--color-white);
+}
 .footer-social {
   margin: auto;
   padding-top: 60px;
