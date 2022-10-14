@@ -11,7 +11,7 @@
 
 ## Overview
 
-A Landing Page to introduce the Guild Sovereign and your members.
+A Landing Page to introduce the Guild Sovereign and your warcraft members.
 
 ### Screenshot
 
