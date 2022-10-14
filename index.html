@@ -13,34 +13,35 @@
 </head>
 
 <body>
-  <header class="header-bg">
+  <header id="header" class="header-bg">
     <img src="./img/Logo.svg" alt="">
     <nav>
       <ul class="menu">
-        <li class="color-white font-poppins-600"><a href="./">Home</a></li>
-        <li class="color-white font-poppins-600"><a href="./">Personagens</a> </li>
-        <li class="color-white font-poppins-600"><a href="./">Contato</a> </li>
+        <li class="font-poppins-600"><a href="./">Home</a></li>
+        <li class="font-poppins-600"><a href="./">Personagens</a> </li>
+        <li class="font-poppins-600"><a href="./">Contato</a> </li>
       </ul>
     </nav>
   </header>
-  <main class="intro-bg">
+  <main id="home" class="intro-bg">
     <div class="intro-container">
       <div class="intro-content">
+        <h2 class="font-lexend-peta color-gray8">World of Warcraft</h2>
         <h1 class="font-adam color-white">A melhor guilda da area-52<span class="color-primary">.</span></h1>
-        <p class="font-poppins-400 color-white">Grupo de 5 pessoas focado na realização de Dungeons M+, atualmente buscando o famoso KSM (Key Stone Master) da season 4 de Shadowlands.</p>
+        <p class="font-poppins-400 color-gray6">Grupo de 5 pessoas focado na realização de Dungeons M+ em <span class="color-primary"><strong>World of Warcraft</strong></span>, atualmente buscando o famoso KSM <i>(Key Stone Master)</i> da season 4 de Shadowlands.</p>
         <a class="button font-poppins-600" href="./">Conheça o grupo</a>
       </div>
-      <img class="intro-img" src="./img/fullimg/huokkna577l11.jpeg" width="560" height="602" alt="Brewmaster Monk">
+      <img class="intro-img" src="./img/fullimg/shadowlands.jpg" width="560" height="602" alt="Brewmaster Monk">
     </div>
   </main>
-  <article class="member-bg">
+  <article id="members" class="member-bg">
     <div class="member-container">
       <h2 class="font-lexend-peta color-gray5">os melhores</h2>
       <h1 class="font-lexend-deca">conheça os membros<span class="color-primary">.</span></h1>
-      <div>
+      <div class="member-img-list">
         <ul class="member-list">
           <li>
-            <img src="./img/monk.jpg" alt="Monk Tank">
+            <img class="first-img" src="./img/monk.jpg" alt="Monk Tank">
             <div class="member-info">
               <h3 class="font-lexend-deca">Chõnpibrew</h3>
               <span class="font-lexend-peta">Tank</span>
@@ -54,7 +55,7 @@
             </div>
           </li>
           <li>
-            <img src="./img/warlock.jpeg" alt="Warlock DPS">
+            <img src="./img/warlock.jpg" alt="Warlock DPS">
             <div class="member-info">
               <h3 class="font-lexend-deca">Thwkz</h3>
               <span class="font-lexend-peta">DPS</span>
@@ -68,7 +69,7 @@
             </div>
           </li>
           <li>
-            <img src="./img/arcanemage.jpg" alt="Mage DPS">
+            <img class="last-img" src="./img/arcanemage.jpg" alt="Mage DPS">
             <div class="member-info">
               <h3 class="font-lexend-deca">Cucalisa</h3>
               <span class="font-lexend-peta">DPS</span>
@@ -78,6 +79,78 @@
       </div>
     </div>
   </article>
+  <section id="dungeons" class="dg-container">
+    <div class="dg-content">
+      <div class="dg-img">
+        <h2 class="font-lexend-peta color-primary-light">Shadowlands</h2>
+        <h1 class="font-lexend-deca">Conheça as dungeons<span class="color-secondary">.</span></h1>
+        <img src="./img/fullimg/4774.jpg" alt="">
+      </div>
+      <div class="dg-list-container">
+        <div class="dg-list-tittle">
+          <h2 class="font-lexend-deca">Dungeons<span class="color-secondary">.</span></h2> <span class="font-lexend-peta">Season <strong>4</strong></span>
+        </div>
+        <ul class="dg-list">
+          <li>
+            <p>Return to Karazhan: Upper</p> <span>Medium</span>
+          </li>
+          <li>
+            <p>Return to Karazhan: Lower</p> <span>Hard</span>
+          </li>
+          <li>
+            <p>Grimrail Depot</p> <span>Easy</span>
+          </li>
+          <li>
+            <p>Iron Docks</p> <span>Easy</span>
+          </li>
+          <li>
+            <p>Operation Mechagon: Junkyard</p> <span>Hard</span>
+          </li>
+          <li>
+            <p>Operation Mechagon: Workshop</p> <span>Medium</span>
+          </li>
+          <li>
+            <p>tazavesh: So'leahs Gambit</p> <span>Easy</span>
+          </li>
+          <li>
+            <p>Tazavesh: Streets of Wonder</p> <span>Hard</span>
+          </li>
+        </ul>
+        <div>
+          <ul class="dg-img-list">
+            <li> <img src="./img/fullimg/upper.png" alt=""></li>
+            <li><img src="./img/fullimg/lower.jpg" alt=""></li>
+            <li><img src="./img/fullimg/GrimrailDepot.jpeg" alt=""></li>
+            <li><img src="./img/fullimg/irondocks.jpeg" alt=""></li>
+            <li><img src="./img/fullimg/mechagonjunkyard.jpg" alt=""></li>
+            <li><img src="./img/fullimg/mechagonworkshop.jpg" alt=""></li>
+            <li><img src="./img/fullimg/tazaveshgambit.jpg" alt=""></li>
+            <li><img src="./img/fullimg/tazavesh-the-veiled-market.jpg" alt=""></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="#footer" class="footer-container">
+    <div class="footer-content">
+      <img src="./img/Logo.svg" alt="">
+      <ul class="footer-list">
+        <li><a href="./">Home</a></li>
+        <li><a href="./">Sobre nós</a></li>
+        <li><a href="./">Personagens</a></li>
+        <li><a href="./">Recursos</a></li>
+        <li><a href="./">Contato</a></li>
+        <li><a href="./">World of Warcraft</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/" target="_blank"><img src="./img/icons/instagram.svg" alt=""></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="./img/icons/facebook.svg" alt=""></a>
+      <a href="https://raider.io/" target="_blank"><img src="./img/icons/raiderio.svg" alt=""></a>
+      <a href="https://worldofwarcraft.com/" target="_blank"><img src="./img/icons/wow.svg" alt=""></a>
+    </div>
+    <p class="color-white">© Copyright. All rights reserved to Chris.</p>
+  </footer>
 </body>
 
 </html>

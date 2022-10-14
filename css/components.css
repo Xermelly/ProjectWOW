@@ -12,14 +12,14 @@
   --color-gray11: #161616;
   --color-gray12: #0a0a0a;
   --color-primary: #a60a27;
-  --color-primary-dark: #260007;
+  --color-primary-dark: #170004;
   --color-primary-light: #ffc9d3;
   --color-secondary: #1cd63d;
   --color-secondary-dark: #000f03;
   --color-secondary-light: #ccffd5;
-  --font-adam: 400 3rem/1.5 ADAMCGPRO, sans-serif;
-  --font-poppins-400: 400 1.25rem/1.45 "Poppins", sans-serif;
-  --font-poppins-600: 600 1.25rem/2.1 "Poppins", sans-serif;
+  --font-adam: 400 3rem/1 ADAMCGPRO, sans-serif;
+  --font-poppins-400: 400 1.25rem/1.1 "Poppins", sans-serif;
+  --font-poppins-600: 600 1.25rem/1 "Poppins", sans-serif;
   --font-lexend-peta: 400 1.25rem/1 "Lexend Peta", sans-serif;
   --font-lexend-deca: 700 4rem/1 "Lexend Deca", sans-serif;
 }
@@ -99,10 +99,14 @@
   text-transform: uppercase;
 }
 .button {
-  max-width: 300px;
-  background-color: var(--color-primary);
+  max-width: max-content;
+  display: inline-block;
+  background: linear-gradient(var(--color-primary), #640013);
   color: var(--color-white);
-  text-align: center;
-  padding: 15px;
+  padding: 15px 30px;
   border-radius: 10px;
+  text-transform: uppercase;
+}
+.button:hover {
+  background: linear-gradient(#bd223f, #ae112f);
 }
