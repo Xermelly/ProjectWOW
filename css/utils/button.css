@@ -1,0 +1,12 @@
+.button {
+  max-width: max-content;
+  display: inline-block;
+  background: linear-gradient(var(--color-primary), #640013);
+  color: var(--color-white);
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.button:hover {
+  background: linear-gradient(#bd223f, #ae112f);
+}
