@@ -13,6 +13,11 @@
   flex-wrap: wrap;
   gap: 60px;
 }
+.test {
+  padding: 5px 15px;
+  background: var(--color-primary);
+  border-radius: 5px;
+}
 .menu a {
   color: var(--color-white);
   position: relative;

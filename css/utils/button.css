@@ -4,9 +4,11 @@
   background: linear-gradient(var(--color-primary), #640013);
   color: var(--color-white);
   padding: 15px 30px;
-  border-radius: 10px;
+  border-radius: 5px;
   text-transform: uppercase;
+  border: none;
 }
 .button:hover {
+  cursor: pointer;
   background: linear-gradient(#bd223f, #ae112f);
 }

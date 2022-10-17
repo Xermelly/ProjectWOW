@@ -7,8 +7,6 @@
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 A Landing Page to introduce the Guild Sovereign and your warcraft members.

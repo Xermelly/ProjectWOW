@@ -135,7 +135,8 @@
   filter: grayscale(1);
   cursor: pointer;
 }
-.dg-img-list img:hover {
+.dg-img-list img:hover,
+.dgChecked img {
   filter: grayscale(0);
 }
 .dg-img-list li {
@@ -153,6 +154,11 @@
   transition: 0.4s;
   left: -10px;
   top: 0;
+}
+.dgChecked::before {
+  height: 40px !important;
+  opacity: 1 !important;
+  transition: 0.5s;
 }
 .dg-img-list li:hover::before {
   height: 40px;
